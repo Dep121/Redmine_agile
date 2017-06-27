@@ -1,0 +1,37 @@
+Plugin    : Luigifab/Apijs
+License   : GNU GPL 2 (https://opensource.org/licenses/gpl-2.0)
+Copyright : 2008-2017 Fabrice Creuzot (luigifab) <code@luigifab.info>
+Website   : https://redmine.luigifab.info/projects/redmine/wiki/apijs
+
+Rewrite
+- app/views/attachments/_form.html.erb
+- app/views/attachments/_links.html.erb
+- lib/attachment_patch.rb
+Depends
+- ruby-zip  (use "bundle update" if you are not using deb/rpm package)
+- python-imaging
+- libimage-exiftool-perl
+- ffmpegthumbnailer
+- file
+
+Notes
+- For the Magento module, read: https://redmine.luigifab.info/projects/magento/wiki/apijs
+- For the Redmine plugin, read: https://redmine.luigifab.info/projects/redmine/wiki/apijs
+- For the javascript application, read: https://www.luigifab.info/apijs
+
+
+All files (including documentation and translations) are licensed under the terms of GNU GPL 2.0+ license.
+That being said, some files come from other projects and are under other licenses.
+
+All external links (different from luigifab.info), the logos, the brands, the commercial names, the graphics...
+used are the property of their respective owners.
+
+
+Files: /assets/fonts/apijs/fontello.woff /assets/fonts/apijs/fontello.woff2
+Source: http://fontello.com/
+License: SIL (https://opensource.org/licenses/ofl-1.1)
+
+In file: /assets/javascripts/apijs.min.js - objectFitImages
+Source: https://github.com/bfred-it/object-fit-images (2.5.9)
+Copyright 2016 Federico Brigante
+License: MIT (https://opensource.org/licenses/mit)
